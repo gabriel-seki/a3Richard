@@ -1,0 +1,102 @@
+# Sistema de Controle de Estoque
+
+---
+
+### Integrantes:
+
+- Gabriel Boreck Seki Ferreira (**RA:** 10725113857; @gabriel-seki)
+- Ryan Pereira De Oliveira (**RA:** 1072511002; @Ryan20040419)
+- Victor De Souza Pascallhid (**RA:** 10725116196; @Paxcal30112005)
+- Gabriel horn espindola (**RA:** 10725116165; @GabrielHorn2806)
+
+---
+
+- 📌 Feito em Java-MVC com Maven
+
+---
+
+Este projeto é um software para gerenciar o estoque de uma mecânica, desenvolvido para atender a uma necessidade fictícia do cotidiano.
+
+### Funcionalidades Principais
+
+1. **Cadastro de Peças**:
+- Nome da peça
+- Id
+- Valor
+- Unidade de medida
+- Quantidade que está sendo depositada no Estoque
+- Quantidade máxima
+- Quantidade mínima
+- Categoria
+1. **Cadastro de Categoria**:
+- ID
+- Nome da Categoria
+- Embalagem (vidro, plástico ou lata)
+- Tamanho (pequeno, médio ou grande) 
+1. **Controle de estoque**:
+- Inspeção
+- Listagem e seleção
+- Relatório do item 
+1. **Ajuste de preço**
+- Escreva o nome do produto
+- Cadastre o novo preço
+1. **Manipulação do estoque **:
+- Digite o nome do produto desejado 
+- Adicione ou remova a quantidade desejada
+
+### Requisitos Funcionais
+
+**RF01** - O sistema deve permitir o cadastro de novas peças com os seguintes dados: nome, valor, quantidade, quantidade mínima, quantidade máxima, categoria e unidade de medida (ID é gerado automaticamente).
+
+**RF02** - O sistema deve permitir o cadastro de novas categorias com os seguintes dados: nome, embalagem e tamanho (ID é gerado automaticamente).
+
+**RF03** - O sistema deve permitir que o usuário registre os ajustes de alteração de preço para as peças, informando o produto, e o preço novo desejado.
+
+**RF04** – O sistema deve permitir que o usuário manipule o estoque adicionando ou retirando produtos, informando o nome do produto, quantidade que deseja retirar ou alocar.
+
+**RF05** - O sistema deve gerar um relatório do valor total da quantidade de cada produto e valor total do estoque. 
+
+**RF06** - O sistema deve mostrar a categoria de todos os produtos selecionados e o valor total do estoque desses produtos.
+
+**RF07** - O sistema deve mostrar uma mensagem na tela do usuário, avisando se o estoque está acima ou abaixo do recomendado.
+
+### Requisitos Não Funcionais
+
+**RNF01** - O sistema deve rodar localmente no computador do usuário.
+
+**RNF02** - O sistema deve garantir a segurança dos dados dos usuários, como informações de peças e preços.
+
+**RNF03** - O sistema deve ser fácil de usar, com uma interface intuitiva para o usuário.
+
+**RNF04** - O sistema deve ter um bom desempenho, mesmo com um grande volume de dados.
+
+**RNF05** - O sistema deve ser compatível com diferentes sistemas operacionais e navegadores.
+
+### Estrutura do Projeto
+
+- **src**: Código fonte do projeto
+- **lib**: Bibliotecas externas utilizadas
+- **docs**: Documentação do projeto
+- README: Este arquivo
+
+### Instruções de Instalação e Uso
+
+1. Clone o repositório para o seu computador:
+    
+    ```java
+    git clone <https://github.com/uRodolfo/ProjetoA3SQL.git>
+    ```
+    
+2. Abra o projeto no NetBeans.
+3. Compile e execute o projeto a partir do NetBeans.
+4. Siga as instruções na interface do usuário para cadastrar peças e categorias, registrar entrada/saida de produtos e gerar relatórios.
+
+### Configurações do Banco de Dados
+- Banco: standard
+- Usuário: root
+- Senha: Sonho2013
+
+
+---
+
+Este software foi desenvolvido como parte da UC de Programação de Soluções Computacionais, atendendo à necessidade fictícia de gerenciamento de estoque de um comércio.
