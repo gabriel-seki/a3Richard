@@ -28,19 +28,19 @@ Este projeto é um software para gerenciar o estoque de uma mecânica, desenvolv
 - Quantidade máxima
 - Quantidade mínima
 - Categoria
-1. **Cadastro de Categoria**:
+2. **Cadastro de Categoria**:
 - ID
 - Nome da Categoria
 - Embalagem (vidro, plástico ou lata)
 - Tamanho (pequeno, médio ou grande) 
-1. **Controle de estoque**:
+3. **Controle de estoque**:
 - Inspeção
 - Listagem e seleção
 - Relatório do item 
-1. **Ajuste de preço**
+4. **Ajuste de preço**
 - Escreva o nome do produto
 - Cadastre o novo preço
-1. **Manipulação do estoque **:
+5. **Manipulação do estoque **:
 - Digite o nome do produto desejado 
 - Adicione ou remova a quantidade desejada
 
